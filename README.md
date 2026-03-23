@@ -51,4 +51,4 @@ When the app opens, the bars pour in from left to right, one row after the next.
 
 ## Origin
 
-This app is a direct homage to the Nothing Phone dot-matrix widget, seen on the Nothing Phone 4a Pro. That widget stopped the author cold. It is one of those rare designs that makes you feel something before you understand it. Kudos to the Nothing design team. After much exploration, iteration, and things considered and discarded, their original layout proved to be very well thought out. This is a PWA port of that idea, built to run in a browser on any device.
+This app is a direct homage to the [Nothing Phone](https://nothing.tech/) dot-matrix widget called 'FINITE', seen on the Nothing Phone 4a Pro. That widget stopped the author cold. It is one of those rare designs that makes you feel something before you understand it. Kudos [Srizan](https://playground.nothing.tech/creator/42RTfsVP0ymr52dk) for such an amazing design. After much exploration, iteration, and things considered and discarded, their original layout proved to be very well thought out. This is a PWA port of that idea, built to run in a browser on any device.
