@@ -160,15 +160,25 @@
       box-shadow: 0 0 calc(var(--s)*2) rgba(255, 255, 255, 0);
     }
 
-    .byline {
+    .byline-row {
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
+      margin-top: calc(var(--s) * -2);
+    }
+
+    .byline {
       opacity: 0.15;
       text-decoration: none;
       transform: scale(0.35);
-      transform-origin: right center;
       line-height: 0;
-      margin-top: calc(var(--s) * -4);
+    }
+
+    .byline-left {
+      transform-origin: left center;
+    }
+
+    .byline-right {
+      transform-origin: right center;
     }
 
     .byline .cp {
@@ -305,7 +315,10 @@
       <div class="progress-col" id="prog-${i}">${progressHTML_empty()}</div>
       <div class="pct-col" id="pct-${i}"></div>
     </div>`).join('') + `
-    <a href="https://miaggy.com" class="byline" onclick="event.stopPropagation()">${textHTML('M')}</a>`;
+    <div class="byline-row">
+      <a href="https://github.com/AUAggy/elapsed" class="byline byline-left" onclick="event.stopPropagation()">${textHTML('G')}</a>
+      <a href="https://miaggy.com" class="byline byline-right" onclick="event.stopPropagation()">${textHTML('M')}</a>
+    </div>`;
       pour();
     }
 
